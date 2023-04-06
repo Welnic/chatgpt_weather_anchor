@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weather_insights"
+version = "0.1.0"
+description = ""
+authors = ["catalina.melnic <catalinamelnic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.20.0"
+openai = "^0.27.4"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
